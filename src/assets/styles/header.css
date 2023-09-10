@@ -1,15 +1,63 @@
+@font-face {
+    font-family: "baloo";
+    src: url("../../assets/fonts/Baloo-Regular.ttf") format("opentype");
+}
+
 .header-container {
-    padding: 6%;
     display: flex;
     justify-content: space-between;
-    color: white;
+    flex-direction: column;
+    width: 430px;
+    align-items: center;
+    padding: 4%;
+    
 }
 
-.header-container a {
-    font-size: 24px;
+.menu-btn {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    
 }
 
-a {
-    text-decoration: none;
-    color: white;
+.wrap-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.wrap-img h3 {
+    position: absolute;
+    top: 24%;
+    font-family: 'cindy';
+    color: #87775d;
+    font-weight: 300;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'baloo';
+}
+
+.first-day, .sec-day {
+    padding: 15px;
+    font-size:large;
+    color: #A7A7A7;
+    text-align: center;
+    
+}
+
+.selected-day {
+    color: #59BCA8;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "pretendard";
+    src: url("../../assets/fonts/PRETENDARDVARIABLE.TTF") format("opentype");
+}
+
+@font-face {
+    font-family: "cindy";
+    src: url("../../assets/fonts/Asia신디나루M.ttf") format("opentype");
+}
+
+.price-container {
+    margin-left: 4px;
+    width: 90%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #000;
+}
+
+hr {
+    border-top: 2px dashed #BDBEC0;
+    background-color: #fff;
+    border-bottom: none;
+    flex-grow: 1;
+    margin: 0 16px;
+}
+
+.wrap-img {
+    position: relative;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap-img p {
+    position: absolute;
+    top: 23px;
+    margin-right: 7px;
+    font-family: 'cindy';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+    color: #87775D;
+}
+
+.menu {
+    font-family: 'cindy';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -1.8px;
+    color: #333128;
+}

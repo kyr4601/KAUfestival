@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "cindy";
+    src: url("../../assets/fonts/Asia신디나루M.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "noto";
+    src: url("../../assets/fonts/NotoSansKR-Bold.ttf") format("opentype");
+}
+
+.booth-container {
+    width: 100vw;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

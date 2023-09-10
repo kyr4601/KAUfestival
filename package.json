@@ -13,9 +13,13 @@
     "@testing-library/user-event": "^13.5.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
+    "react-chrono": "^2.2.4",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.2",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "rmc-tabs": "^1.2.29",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^6.0.7",
     "web-vitals": "^2.1.4"
   },

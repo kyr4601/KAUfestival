@@ -1,0 +1,233 @@
+
+@font-face {
+    font-family: "cindy";
+    src: url("../../assets/fonts/Asia신디나루M.ttf") format("opentype");
+}
+
+
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 16px; /* 1.6rem */
+    line-height: 24px; /* 2.4rem */
+
+  }
+  
+  .m-dropdown {
+    position: relative;
+    width: 50px;
+    display: block;
+  }
+  
+  .m-dropdown .e-button {
+    transition: all .3s ease-in-out;
+    border-radius: 50px;
+    font-size: 14px; /* 1.4rem */
+    line-height: 20px; /* 2rem */
+    position: absolute; /* 이 속성을 추가해서 e-list가 일반 문서 흐름에서 제거되게 합니다. */
+    top: 0; 
+    padding: 0;
+    z-index: 900;
+    color: #fff;
+    font-weight: 900;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 5;
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background: #59BCA8;
+  }
+  
+  .m-dropdown .e-button:hover {
+    cursor: pointer;
+  }
+  
+  .m-dropdown .e-button:hover .e-burger span {
+    background: #fff;
+  }
+  
+  .m-dropdown .e-button:after,
+  .m-dropdown .e-button:before {
+    display: block;
+    position: absolute;
+    top: 2px;
+    height: 100%;
+    background: #333;
+    z-index: 0;
+  }
+  
+  .m-dropdown .e-button:after {
+    left: 100%;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .m-dropdown .e-button:before {
+    right: 100%;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .m-dropdown .e-button .e-burger {
+    transition: all .3s ease-in-out;
+    position: absolute;
+    top: 50%;
+    right: 18px;
+    width: 15px;
+    height: 14px;
+    transform: translateY(-50%);
+    transform-origin: center;
+    z-index: -1;
+  }
+  
+  .m-dropdown .e-button .e-burger span {
+    transition: all .2s ease-in-out;
+    position: absolute;
+    top: 50%;
+    border-radius: 2px;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    left: 0;
+    transform: translateY(-50%);
+    transform-origin: center;
+  }
+  
+  .m-dropdown .e-button .e-burger span:first-child {
+    top: 0;
+    transform: none;
+  }
+  
+  .m-dropdown .e-button .e-burger span:last-child {
+    top: auto;
+    bottom: 0;
+    transform: none;
+  }
+  
+  .m-dropdown .e-button .e-burger:after {
+    transition: 500px .3s ease-in-out;
+    content: " ";
+    display: block;
+    position: absolute;
+    right: -37px;
+    height: 0;
+    left: auto;
+    z-index: -2;
+    background: #59BCA8;
+    opacity: 0;
+  }
+  
+  .m-dropdown .e-button.open {
+    border-color: transparent;
+    background: #59BCA8;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    color: #fff;
+  }
+  
+  .m-dropdown .e-button.open .e-burger span {
+    background: #fff;
+  }
+  
+  .m-dropdown .e-button.open .e-burger span:first-child,
+  .m-dropdown .e-button.open .e-burger span:last-child {
+    opacity: 0;
+  }
+  
+  .m-dropdown .e-button.open .e-burger span:nth-child(2) {
+    transform: translateY(-50%) rotate(-45deg);
+  }
+  
+  .m-dropdown .e-button.open .e-burger span:nth-child(3) {
+    transform: translateY(-50%) rotate(45deg);
+  }
+  
+  .m-dropdown .e-button.open .e-burger:after {
+    height: 15px;
+    opacity: 1;
+  }
+  
+  .m-dropdown .e-list {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #59BCA8;
+    float: left;
+    overflow: hidden;
+    z-index: 999;
+    max-height: 0;
+    transition: 500px 1s ease-out;
+    visibility: hidden; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+
+  
+  .m-dropdown .e-list li a {
+    transition: all .5s ease-in-out;
+    padding: 6px 0;
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .m-dropdown .e-list.open {
+    visibility: visible;
+    max-height: 500px; /* or any other value depending on your needs */
+  }
+
+  .menuimg{
+    border-radius: 40px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+ .menu1 {
+    position:absolute;
+    top: 30px;
+    left: 6px;
+    font-size: 14px;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    font-family: 'cindy';
+    font-weight: 400;
+ }
+
+ .menu2 {
+    position:absolute;
+    top: 30px;
+    left: 6px;
+    font-size: 14px;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    font-family: 'cindy';
+    font-weight: 400;
+ }
+ .menu3 {
+    position:absolute;
+    top: 30px;
+    left: 6px;
+    font-size: 14px;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    font-family: 'cindy';
+    font-weight: 400;
+ }
+ .menu4 {
+    position:absolute;
+    top: 30px;
+    left: 6px;
+    font-size: 14px;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    font-family: 'cindy';
+    font-weight: 400;
+ }

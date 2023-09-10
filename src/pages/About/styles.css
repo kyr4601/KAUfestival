@@ -1,0 +1,111 @@
+.about-container{
+    width: 430px;
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/564x/93/46/22/934622055e26acce37ed3bdb55edfa49.jpg);
+    background-repeat: no-repeat;
+    background-position: top center; 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: cover;
+}
+
+.head-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+    padding-top: 4%;
+    
+}
+
+.white-box {
+    width: 300px;
+    height: 410px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.80);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.white-box p {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'noto';
+    line-height: normal;
+    color: #837156;
+}
+
+.white-box h3{
+    font-size: 13px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'cindy';
+    line-height: normal;
+    font-weight: 600;
+    color: #837156;
+}
+
+.white-box h2{
+    font-size: 14px;
+    text-align: left;
+    font-family: 'cindy';
+    line-height: normal;
+    font-weight: 500;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 100px;
+    margin-top: 60px;
+}
+
+.white-box h1{
+    font-size: 36px;
+    text-align: left;
+    font-family: 'moon';
+    line-height: normal;
+    font-weight: 500;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 180px;
+}
+
+.white-box a{
+    border-radius: 20px;
+    background: #FF7710;
+    padding: 10px 20px;
+    color: #FFF;
+    font-family: 'cindy';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.white-box span {
+    color: #FF7710;
+    font-weight: 500;
+    font-family: 'noto';
+    font-size: 13px;
+}
+.menu-but {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.me{
+    position: absolute;
+    top: 283px;
+    right: 10px;
+}

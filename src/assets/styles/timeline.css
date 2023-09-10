@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "pretendard";
+    src: url("../../assets/fonts/PRETENDARDVARIABLE.TTF") format("opentype");
+}
+
+
+@font-face {
+    font-family: "cindy";
+    src: url("../../assets/fonts/Asia신디나루M.ttf") format("opentype");
+}
+
+
+.time-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'cindy';
+}
+
+.time-content h3 {
+    margin-left: 17px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.time-content p {
+    font-size: 12px;
+    letter-spacing: -1.8px;
+}
+

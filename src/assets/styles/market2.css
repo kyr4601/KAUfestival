@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "pretendard";
+    src: url("../../assets/fonts/PRETENDARDVARIABLE.TTF") format("opentype");
+}
+
+.market-container {
+    font-family: 'pretendard';
+}
+
+.wrap {
+    position: relative;
+}
+
+.building{
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    border-radius: 5px;
+    background: #59BCA8;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 124px;
+    height: 23px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-family: 'pretendard';
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.major {
+    color: #333128;
+    text-align: left;
+    margin-top: 10px;
+    font-family: 'pretendard';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #736E6E;
+}
+
+.warning {
+    color: #736E6E;
+    font-family: 'pretendard';
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 4px 0;
+    text-align: end;
+}
+
+.grey-btn2 {
+    position: absolute;
+    top: 220px;
+    left: 205px;
+    border-radius: 5px;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 50px;
+    height: 30px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+}

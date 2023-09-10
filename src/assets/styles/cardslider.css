@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "noto";
+    src: url("../../assets/fonts/NotoSansKR-Bold.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "cindy";
+    src: url("../../assets/fonts/Asia신디나루M.ttf") format("opentype");
+}
+  
+
+.slick-slide {
+    height: 210px;
+    box-sizing: border-box;
+    width: 200px;
+    
+    
+}
+  
+  .slick-slide img {
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    height: 200px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.slider-container{
+    width: 330px;
+    height: 300px;
+    margin-top: 14px;
+
+}
+
+.slider-container h2 {
+    margin-bottom: 20px;
+    margin-left: 6px;
+    color: #000;
+    font-family: 'cindy';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.card {
+    display: flex !important; 
+    justify-content: center;
+    position: relative;
+    outline : none;
+}
+
+.card p {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    color: #fff;
+    font-family: 'noto';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}

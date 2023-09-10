@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "pretendard";
+    src: url("../../assets/fonts/PRETENDARDVARIABLE.TTF") format("opentype");
+}
+
+.ground-container {
+    font-family: 'pretendard';
+}
+
+.wrap {
+    position: relative;
+}
+
+
+
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.major {
+    color: #333128;
+    text-align: left;
+    margin-top: 10px;
+    font-family: 'pretendard';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #736E6E;
+}
+
+.warning {
+    color: #736E6E;
+    font-family: 'pretendard';
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 4px 0;
+    text-align: end;
+}
+
+.stage {
+    position: absolute;
+    top: 57px;
+    left: 10px;
+    border-radius: 5px;
+    background: #59BCA8;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 55px;
+    height: 100px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'pretendard';
+}

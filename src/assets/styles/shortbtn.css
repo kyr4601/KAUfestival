@@ -1,0 +1,29 @@
+.short-btn {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: #000000;
+    font-weight: 500;
+    flex-direction: column;
+}
+
+.short-btn .icon {
+    color: transparent; /* 모든 아이콘의 기본 색상을 투명으로 설정 */
+    z-index: 2;
+    position: absolute;
+    top:0;
+  }
+  
+  .short-btn.selected .icon {
+    color: red; /* 선택된 버튼의 아이콘 색상을 빨간색으로 설정 */
+    z-index: 2;
+    position: absolute;
+    top:0;
+  }
