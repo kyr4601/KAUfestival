@@ -45,9 +45,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 display: block;
 }
-body {
+html, body {
 line-height: 1;
 -webkit-tap-highlight-color: transparent;
+-webkit-text-size-adjust : none;  /* 크롬, 사파리, 오페라(신) */
+-ms-text-size-adjust : none;  /* IE */
+-moz-text-size-adjust : none;  /* 파이어폭스 */
 
 }
 ol, ul {
