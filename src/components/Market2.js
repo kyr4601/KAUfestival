@@ -98,7 +98,7 @@ const Market2 = () =>  {
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
               <Price menu='신청곡' price='무 료' />
-              <Price menu='오락실' price='미 정' />
+              <Price menu='오락실' price='추후공개' />
             </div>
           </>
         );
