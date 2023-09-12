@@ -35,8 +35,8 @@ const Market1 = () =>  {
             <h3 className='major'>항공우주 및 기계공학부</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='타투스티커' price='미 정' />
-              <Price menu='발펀치' price='미 정' />
+              <Price menu='타투스티커' price='크기별상이' />
+              <Price menu='발펀치(2회)' price='1,000벨' />
             </div>
           </>
         );
