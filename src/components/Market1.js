@@ -22,8 +22,9 @@ const Market1 = () =>  {
             <h3 className='major'>항공교통물류학부</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='아이스크림호떡' price='3,000' />
-              <Price menu='아이스티' price='12,000' />
+              <Price menu='아이스크림+호떡' price='3,000벨' />
+              <Price menu='맥플러리' price='2,500벨' />
+              <Price menu='아이스티' price='1,500벨' />
             </div>
           </>
         );
@@ -34,8 +35,8 @@ const Market1 = () =>  {
             <h3 className='major'>항공우주 및 기계공학부</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='타투스티커' price='3,000' />
-              <Price menu='발펀치' price='12,000' />
+              <Price menu='타투스티커' price='미 정' />
+              <Price menu='발펀치' price='미 정' />
             </div>
           </>
         );
@@ -45,7 +46,7 @@ const Market1 = () =>  {
             <h3 className='major'>자유전공학부</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='야구공 구속 측정' price='3,000' />
+              <Price menu='야구공 구속 측정(5회)' price='2,000벨' />
             </div>
           </>
         );
@@ -55,7 +56,7 @@ const Market1 = () =>  {
             <h3 className='major'>스마트드론공학과</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='드론 아케이드' price='3,000' />
+              <Price menu='드론 아케이드' price='미 정' />
             </div>
           </>
         );
@@ -65,7 +66,8 @@ const Market1 = () =>  {
             <h3 className='major'>공학계열</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='무알콜 칵테일' price='3,000' />
+              <Price menu='무알콜 모히또' price='3,000벨' />
+              <Price menu='무알콜 취화채' price='4,000벨' />
             </div>
           </>
         );
@@ -86,7 +88,7 @@ const Market1 = () =>  {
             <h3 className='major'>나래</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='나래를 이겨라!' price='3,000' />
+              <Price menu='나래를 이겨라!' price='미 정' />
             </div>
           </>
         );
@@ -96,7 +98,7 @@ const Market1 = () =>  {
             <h3 className='major'>AI자율주행시스템공학과</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='슬러쉬' price='3,000' />
+              <Price menu='슬러시' price='1,500벨' />
             </div>
           </>
         );
@@ -106,10 +108,10 @@ const Market1 = () =>  {
             <h3 className='major'>소프트웨어학과</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='불고기피자' price='3,000' />
-              <Price menu='폴라로이드' price='3,000' />
-              <Price menu='뚜껑 날리기' price='3,000' />
-              <Price menu='사다리 소개팅' price='3,000' />
+              <Price menu='불고기피자+콜라' price='4,500벨' />
+              <Price menu='폴라로이드' price='2,500벨' />
+              <Price menu='병뚜껑 날리기' price='1,000벨' />
+              <Price menu='사다리 소개팅' price='2,000벨' />
             </div>
           </>
         );
@@ -119,10 +121,9 @@ const Market1 = () =>  {
             <h3 className='major'>경영학부</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='포춘쿠키' price='3,000' />
-              <Price menu='항대 시그널' price='3,000' />
-              <Price menu='닭꼬치' price='3,000' />
-              <Price menu='소떡소떡' price='3,000' />
+              <Price menu='포춘쿠키 & 항대시그널' price='2,000벨' />
+              <Price menu='닭꼬치' price='2,500벨' />
+              <Price menu='소떡소떡' price='2,500벨' />
             </div>
           </>
         );
@@ -132,8 +133,8 @@ const Market1 = () =>  {
             <h3 className='major'>항공전자정보공학부</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='랜덤 공 리프팅' price='3,000' />
-              <Price menu='에이드' price='3,000' />
+              <Price menu='랜덤 공 리프팅(3회)' price='2,000벨' />
+              <Price menu='자몽에이드' price='1,500벨' />
             </div>
           </>
         );
@@ -143,8 +144,9 @@ const Market1 = () =>  {
             <h3 className='major'>항공운항학과</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='카지노' price='3,000' />
-              <Price menu='통아저씨' price='3,000' />
+              <Price menu='탕후루' price='2,500벨' />
+              <Price menu='칵테일' price='4,000벨' />
+              <Price menu='비어퐁' price='3,000벨' />
             </div>
           </>
         );

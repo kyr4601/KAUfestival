@@ -22,8 +22,8 @@ const FoodTruck = () => {
             <h3 className='major'>스시앤스시</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='모둠초밥' price='12,000' />
-              <Price menu='불초밥' price='12,000' />
+              <Price menu='모둠초밥' price='추후공개' />
+              <Price menu='불초밥' price='추후공개' />
             </div>
           </>
         );
@@ -34,7 +34,7 @@ const FoodTruck = () => {
             <h3 className='major'>크라운키친</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='흑돼지 덮밥' price='3,000' />
+              <Price menu='흑돼지 덮밥' price='추후공개' />
             </div>
           </>
         );
@@ -44,8 +44,8 @@ const FoodTruck = () => {
             <h3 className='major'>곱창앤야끼</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='야채곱창' price='3,000' />
-              <Price menu='야끼소바' price='3,000' />
+              <Price menu='야채곱창' price='추후공개' />
+              <Price menu='야끼소바' price='추후공개' />
             </div>
           </>
         );
@@ -55,7 +55,7 @@ const FoodTruck = () => {
             <h3 className='major'>라온</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='스테이크 덮밥' price='3,000' />
+              <Price menu='스테이크 덮밥' price='추후공개' />
             </div>
           </>
         );
@@ -65,9 +65,9 @@ const FoodTruck = () => {
             <h3 className='major'>서프라이즈데이</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='떡순튀' price='3,000' />
-              <Price menu='오떡순' price='3,000' />
-              <Price menu='튀김범벅' price='3,000' />
+              <Price menu='떡순튀' price='추후공개' />
+              <Price menu='오떡순' price='추후공개' />
+              <Price menu='튀김범벅' price='추후공개' />
             </div>
           </>
         );
@@ -77,10 +77,10 @@ const FoodTruck = () => {
             <h3 className='major'>와니 닭강정</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='닭강정 컵' price='3,000' />
-              <Price menu='닭강정 소' price='3,000' />
-              <Price menu='닭강정 중' price='3,000' />
-              <Price menu='닭강정 대' price='3,000' />
+              <Price menu='닭강정 컵' price='추후공개' />
+              <Price menu='닭강정 소' price='추후공개' />
+              <Price menu='닭강정 중' price='추후공개' />
+              <Price menu='닭강정 대' price='추후공개' />
             </div>
           </>
         );
@@ -90,10 +90,10 @@ const FoodTruck = () => {
             <h3 className='major'>마이츄 츄러스</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='정통 츄러스' price='3,000' />
-              <Price menu='회오리 감자' price='3,000' />
-              <Price menu='소떡소떡' price='3,000' />
-              <Price menu='츄러스 아이스크림' price='3,000' />
+              <Price menu='정통 츄러스' price='추후공개' />
+              <Price menu='회오리 감자' price='추후공개' />
+              <Price menu='소떡소떡' price='추후공개' />
+              <Price menu='츄러스 아이스크림' price='추후공개' />
             </div>
           </>
         );
@@ -103,7 +103,7 @@ const FoodTruck = () => {
             <h3 className='major'>타코아찌</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='타코야끼' price='3,000' />
+              <Price menu='타코야끼' price='추후공개' />
             </div>
           </>
         );
@@ -113,8 +113,8 @@ const FoodTruck = () => {
             <h3 className='major'>파파꼬치</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='닭꼬치' price='3,000' />
-              <Price menu='염통꼬치' price='3,000' />
+              <Price menu='닭꼬치' price='추후공개' />
+              <Price menu='염통꼬치' price='추후공개' />
             </div>
           </>
         );
@@ -124,10 +124,10 @@ const FoodTruck = () => {
             <h3 className='major'>스위트박스</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='커피류' price='3,000' />
-              <Price menu='초코라떼' price='3,000' />
-              <Price menu='에이드' price='3,000' />
-              <Price menu='복숭아 아이스티' price='3,000' />
+              <Price menu='커피류' price='추후공개' />
+              <Price menu='초코라떼' price='추후공개' />
+              <Price menu='에이드' price='추후공개' />
+              <Price menu='복숭아 아이스티' price='추후공개' />
             </div>
           </>
         );

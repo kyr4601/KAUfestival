@@ -22,8 +22,8 @@ const Market2 = () =>  {
             <h3 className='major'>학생복지회</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='솜사탕 아이스크림' price='3,000' />
-              <Price menu='크룽지 아이스크림' price='12,000' />
+              <Price menu='솜사탕 아이스크림' price='4,000벨' />
+              <Price menu='크룽지 아이스크림' price='3,500벨' />
             </div>
           </>
         );
@@ -33,8 +33,8 @@ const Market2 = () =>  {
             <h3 className='major'>아카로아</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='핫도그' price='3,000' />
-              <Price menu='에이드' price='12,000' />
+              <Price menu='핫도그' price='3,500벨' />
+              <Price menu='에이드' price='1,500벨' />
             </div>
           </>
         );
@@ -44,8 +44,8 @@ const Market2 = () =>  {
             <h3 className='major'>픽쳐</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='폴라로이드' price='3,000' />
-              <Price menu='엽서' price='3,000' />
+              <Price menu='폴라로이드' price='2,000벨' />
+              <Price menu='엽서' price='2,000벨' />
             </div>
           </>
         );
@@ -55,8 +55,8 @@ const Market2 = () =>  {
             <h3 className='major'>이웃사촌부</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='크레이프' price='3,000' />
-              <Price menu='소다' price='3,000' />
+              <Price menu='크레이프' price='4,900벨' />
+              <Price menu='메론소다' price='2,900벨' />
             </div>
           </>
         );
@@ -66,7 +66,7 @@ const Market2 = () =>  {
             <h3 className='major'>라퓨타</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='열기구 체험' price='3,000' />
+              <Price menu='열기구 탑승권' price='7,000벨' />
             </div>
           </>
         );
@@ -76,7 +76,7 @@ const Market2 = () =>  {
             <h3 className='major'>에어윙즈</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='축구공 볼링' price='3,000' />
+              <Price menu='축구공 볼링' price='미 정' />
             </div>
           </>
         );
@@ -97,8 +97,8 @@ const Market2 = () =>  {
             <h3 className='major'>방송국</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='신청곡' price='3,000' />
-              <Price menu='오락실' price='3,000' />
+              <Price menu='신청곡' price='무 료' />
+              <Price menu='오락실' price='미 정' />
             </div>
           </>
         );
@@ -108,9 +108,9 @@ const Market2 = () =>  {
             <h3 className='major'>푸드트럭</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='닭강정 소/중/대' price='3,000' />
-              <Price menu='닭꼬치/염통꼬치' price='3,000' />
-              <Price menu='타코야끼/회오리감자' price='3,000' />
+              <Price menu='닭강정 소/중/대' price='추후공개' />
+              <Price menu='닭꼬치/염통꼬치' price='추후공개' />
+              <Price menu='타코야끼/회오리감자' price='추후공개' />
             </div>
           </>
         );
