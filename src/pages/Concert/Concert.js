@@ -45,9 +45,9 @@ const Concert = () => {
    
   },
   {
-    cardTitle: "올뮤",
+    cardTitle: "재징유",
     cardSubtitle:"18:22 - 18:47",
-    cardDetailedText: "밴드 동아리 All_About_Music",
+    cardDetailedText: "중앙 재즈 동아리 ZAZZING YOU",
    
   },
   {
@@ -60,9 +60,9 @@ const Concert = () => {
     cardSubtitle:"19:12 - 19:42"
   },
   {
-    cardTitle: "재징유",
+    cardTitle: "올뮤",
     cardSubtitle:"19:42 - 20:07",
-    cardDetailedText: "중앙 재즈 동아리 ZAZZING YOU",
+    cardDetailedText: "밴드 동아리 All_About_Music",
   },
   {
     cardTitle: "에어락",

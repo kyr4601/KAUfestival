@@ -22,7 +22,7 @@ const Market1 = () =>  {
             <h3 className='major'>항공교통물류학부</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='아이스크림+호떡' price='3,000벨' />
+              <Price menu='아이스크림&호떡' price='3,000벨' />
               <Price menu='맥플러리' price='2,500벨' />
               <Price menu='아이스티' price='1,500벨' />
             </div>
@@ -88,7 +88,7 @@ const Market1 = () =>  {
             <h3 className='major'>나래</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='나래를 이겨라!' price='미 정' />
+              <Price menu='나래를 이겨라!' price='무 료' />
             </div>
           </>
         );

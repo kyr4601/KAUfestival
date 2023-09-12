@@ -22,8 +22,8 @@ const FoodTruck = () => {
             <h3 className='major'>스시앤스시</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='모둠초밥' price='추후공개' />
-              <Price menu='불초밥' price='추후공개' />
+              <Price menu='모듬초밥' price='13,000벨' />
+              <Price menu='불초밥' price='12,000벨' />
             </div>
           </>
         );
@@ -34,7 +34,7 @@ const FoodTruck = () => {
             <h3 className='major'>크라운키친</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='흑돼지 덮밥' price='추후공개' />
+              <Price menu='흑돼지 덮밥' price='10,000벨' />
             </div>
           </>
         );
@@ -44,8 +44,8 @@ const FoodTruck = () => {
             <h3 className='major'>곱창앤야끼</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='야채곱창' price='추후공개' />
-              <Price menu='야끼소바' price='추후공개' />
+              <Price menu='야채곱창' price='10,000벨' />
+              <Price menu='야끼소바' price='8,000벨' />
             </div>
           </>
         );
@@ -55,7 +55,7 @@ const FoodTruck = () => {
             <h3 className='major'>라온</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='스테이크 덮밥' price='추후공개' />
+              <Price menu='스테이크 덮밥' price='10,000벨' />
             </div>
           </>
         );
@@ -65,9 +65,10 @@ const FoodTruck = () => {
             <h3 className='major'>서프라이즈데이</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='떡순튀' price='추후공개' />
-              <Price menu='오떡순' price='추후공개' />
-              <Price menu='튀김범벅' price='추후공개' />
+              <Price menu='어묵 / 튀김' price='3,000벨' />
+              <Price menu='떡볶이 / 순대' price='4,000벨' />
+              <Price menu='튀김범벅' price='6,000벨' />
+              <Price menu='떡순튀 / 오떡순' price='10,000벨' />
             </div>
           </>
         );
@@ -77,10 +78,10 @@ const FoodTruck = () => {
             <h3 className='major'>와니 닭강정</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='닭강정 컵' price='추후공개' />
-              <Price menu='닭강정 소' price='추후공개' />
-              <Price menu='닭강정 중' price='추후공개' />
-              <Price menu='닭강정 대' price='추후공개' />
+              <Price menu='닭강정 컵' price='6,000벨' />
+              <Price menu='닭강정 소' price='11,000벨' />
+              <Price menu='닭강정 중' price='16,000벨' />
+              <Price menu='닭강정 대' price='20,000벨' />
             </div>
           </>
         );
@@ -90,10 +91,10 @@ const FoodTruck = () => {
             <h3 className='major'>마이츄 츄러스</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='정통 츄러스' price='추후공개' />
-              <Price menu='회오리 감자' price='추후공개' />
-              <Price menu='소떡소떡' price='추후공개' />
-              <Price menu='츄러스 아이스크림' price='추후공개' />
+              <Price menu='정통 츄러스' price='4,000벨' />
+              <Price menu='회오리 감자' price='4,000벨' />
+              <Price menu='소떡소떡' price='4,000벨' />
+              <Price menu='츄러스&아이스크림' price='6,000벨' />
             </div>
           </>
         );
@@ -103,7 +104,7 @@ const FoodTruck = () => {
             <h3 className='major'>타코아찌</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='타코야끼' price='추후공개' />
+              <Price menu='타코야끼(7알)' price='5,000벨' />
             </div>
           </>
         );
@@ -113,8 +114,8 @@ const FoodTruck = () => {
             <h3 className='major'>파파꼬치</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='닭꼬치' price='추후공개' />
-              <Price menu='염통꼬치' price='추후공개' />
+              <Price menu='닭꼬치' price='5,000벨' />
+              <Price menu='염통꼬치(2P)' price='6,000벨' />
             </div>
           </>
         );
@@ -124,10 +125,10 @@ const FoodTruck = () => {
             <h3 className='major'>스위트박스</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='커피류' price='추후공개' />
-              <Price menu='초코라떼' price='추후공개' />
-              <Price menu='에이드' price='추후공개' />
-              <Price menu='복숭아 아이스티' price='추후공개' />
+              <Price menu='아메리카노' price='3,500벨' />
+              <Price menu='라떼/바닐라라떼/초코라떼' price='4,000벨' />
+              <Price menu='에이드(레몬,자몽,딸기)' price='4,000벨' />
+              <Price menu='복숭아 아이스티' price='4,000벨' />
             </div>
           </>
         );
@@ -144,61 +145,61 @@ const FoodTruck = () => {
       <p className='stage'>Stage</p>
       
        <ShortBtn
-          btnTitle='푸드트럭'
+          btnTitle='스시'
           style={{ top: '10px', left: '24px' }}
           isSelected={selectedBtn === '1'}  
           onClick={() => handleBtnClick('1')}
         />
         <ShortBtn
-          btnTitle='푸드트럭'
+          btnTitle='덮밥'
           style={{ top: '10px', left: '84px' }}
           isSelected={selectedBtn === '2'}
           onClick={() => handleBtnClick('2')}
         />
         <ShortBtn 
-          btnTitle='푸드트럭'
+          btnTitle='곱창/야끼'
           style={{ top: '10px', left: '144px' }} 
           isSelected={selectedBtn === '3'} 
           onClick={() => handleBtnClick('3')} 
         />
         <ShortBtn
-          btnTitle='푸드트럭'
+          btnTitle='덮밥'
           style={{ top: '10px', left: '202px' }}
           isSelected={selectedBtn === '4'}
           onClick={() => handleBtnClick('4')}
         />
         <ShortBtn 
-          btnTitle='푸드트럭'
+          btnTitle='분식'
           style={{ top: '10px', left: '260px' }} 
           isSelected={selectedBtn === '5'} 
           onClick={() => handleBtnClick('5')} 
         />
         <ShortBtn
-          btnTitle='푸드트럭'
+          btnTitle='닭강정'
           style={{ top: '175px', left: '24px' }}
           isSelected={selectedBtn === '6'}  
           onClick={() => handleBtnClick('6')}
         />
         <ShortBtn
-          btnTitle='푸드트럭'
+          btnTitle='츄러스'
           style={{ top: '175px', left: '84px' }}
           isSelected={selectedBtn === '7'}
           onClick={() => handleBtnClick('7')}
         />
         <ShortBtn 
-          btnTitle='푸드트럭'
+          btnTitle='타코야끼'
           style={{ top: '175px', left: '144px' }} 
           isSelected={selectedBtn === '8'} 
           onClick={() => handleBtnClick('8')} 
         />
         <ShortBtn
-          btnTitle='푸드트럭'
+          btnTitle='꼬치'
           style={{ top: '175px', left: '202px' }}
           isSelected={selectedBtn === '9'}
           onClick={() => handleBtnClick('9')}
         />
         <ShortBtn 
-          btnTitle='푸드트럭'
+          btnTitle='카페'
           style={{ top: '175px', left: '260px' }} 
           isSelected={selectedBtn === '10'} 
           onClick={() => handleBtnClick('10')} 

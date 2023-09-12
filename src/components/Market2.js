@@ -108,9 +108,10 @@ const Market2 = () =>  {
             <h3 className='major'>푸드트럭</h3>
             <p className='warning'>*해당 정보는 변동될 수 있습니다</p>
             <div className='menu-container'>
-              <Price menu='닭강정 소/중/대' price='추후공개' />
-              <Price menu='닭꼬치/염통꼬치' price='추후공개' />
-              <Price menu='타코야끼/회오리감자' price='추후공개' />
+              <Price menu='닭강정 소/중/대' price='8,000벨~' />
+              <Price menu='닭꼬치/염통꼬치(2P)' price='5,000벨~' />
+              <Price menu='타코야끼(10알)' price='6,000벨' />
+              <Price menu='회오리감자' price='4,000벨' />
             </div>
           </>
         );
