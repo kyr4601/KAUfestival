@@ -88,30 +88,57 @@ const Concert = () => {
 ];
 
 const itemstwo = [{
+  cardTitle: "활주로",
+  cardSubtitle:"17:00 - 17:25",
+  cardDetailedText: "중앙락밴드 동아리 활주로 RUNWAY",
+ 
+},
+{
+  cardTitle: "우리부모",
+  cardSubtitle:"17:25 - 17:50",
+  cardDetailedText: "중앙 밴드 동아리 '우리' 노래 '부'르기 '모'임",
+},
+{
+  cardTitle: "재징뮤(재징유&올뮤)",
+  cardSubtitle:"17:50 - 18:20",
+  cardDetailedText: "중앙 재즈 동아리 & 밴드 동아리",
+ 
+},
+{
+  cardTitle: "에어락",
+  cardSubtitle:"18:20 - 18:45",
+  cardDetailedText: "밴드 동아리 AEROCK",
+},
+{
+  cardTitle: "줄울림",
+  cardSubtitle:"18:45 - 19:05",
+  cardDetailedText: "어쿠스틱 밴드 동아리 Julullim",
+},
+{
   cardTitle: "광대와 끼",
-  cardSubtitle:"18:00 - 18:20",
+  cardSubtitle:"19:05 - 19:20",
   cardDetailedText: "중앙풍물패 광대와 끼",
  
 },
 {
   cardTitle: "랩플레인",
-  cardSubtitle:"18:20 - 19:10",
+  cardSubtitle:"19:20 - 19:50",
   cardDetailedText: "힙합 동아리 RAPLANE",
  
 },
 {
   cardTitle: "도스",
-  cardSubtitle:"19:10 - 19:40",
+  cardSubtitle:"19:50 - 20:20",
   cardDetailedText: "댄스동아리 DOS",
 },
 {
   cardTitle: "슈퍼스타 KAU",
-  cardSubtitle:"19:40 - 20:30",
+  cardSubtitle:"20:20 - 21:10",
   cardDetailedText: "항공대 스타 발굴 오디션",
 },
 {
   cardTitle: "MC 레크레이션",
-  cardSubtitle:"20:30 - 21:30"
+  cardSubtitle:"21:10 - 21:30"
 },
 {
   cardTitle: "Special Guest",
